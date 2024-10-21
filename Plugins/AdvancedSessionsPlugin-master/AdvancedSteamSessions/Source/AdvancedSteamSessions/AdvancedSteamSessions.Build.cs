@@ -18,7 +18,5 @@ public class AdvancedSteamSessions : ModuleRules
             PublicDependencyModuleNames.AddRange(new string[] { "SteamShared", "Steamworks"/*, "OnlineSubsystemSteam"*/ });
             //PublicIncludePaths.AddRange(new string[] { "../Plugins/Online/OnlineSubsystemSteam/Source/Private" });// This is dumb but it isn't very open
         }
-
-        AddEngineThirdPartyPrivateStaticDependencies(Target, "Steamworks");
     }
 }
